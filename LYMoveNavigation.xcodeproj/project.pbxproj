@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACFB5BF41C2152CA009CA821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5BF31C2152CA009CA821 /* main.m */; };
+		ACFB5BF71C2152CA009CA821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5BF61C2152CA009CA821 /* AppDelegate.m */; };
+		ACFB5BFA1C2152CA009CA821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5BF91C2152CA009CA821 /* ViewController.m */; };
+		ACFB5BFD1C2152CA009CA821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFB5BFB1C2152CA009CA821 /* Main.storyboard */; };
+		ACFB5BFF1C2152CA009CA821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFB5BFE1C2152CA009CA821 /* Assets.xcassets */; };
+		ACFB5C021C2152CA009CA821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFB5C001C2152CA009CA821 /* LaunchScreen.storyboard */; };
+		ACFB5C0D1C2152CA009CA821 /* LYMoveNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5C0C1C2152CA009CA821 /* LYMoveNavigationTests.m */; };
+		ACFB5C181C2152CA009CA821 /* LYMoveNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5C171C2152CA009CA821 /* LYMoveNavigationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACFB5C091C2152CA009CA821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFB5BE71C2152CA009CA821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFB5BEE1C2152CA009CA821;
+			remoteInfo = LYMoveNavigation;
+		};
+		ACFB5C141C2152CA009CA821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFB5BE71C2152CA009CA821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFB5BEE1C2152CA009CA821;
+			remoteInfo = LYMoveNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACFB5BEF1C2152CA009CA821 /* LYMoveNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMoveNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFB5BF31C2152CA009CA821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACFB5BF51C2152CA009CA821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACFB5BF61C2152CA009CA821 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACFB5BF81C2152CA009CA821 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACFB5BF91C2152CA009CA821 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACFB5BFC1C2152CA009CA821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACFB5BFE1C2152CA009CA821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFB5C011C2152CA009CA821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACFB5C031C2152CA009CA821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFB5C081C2152CA009CA821 /* LYMoveNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMoveNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFB5C0C1C2152CA009CA821 /* LYMoveNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoveNavigationTests.m; sourceTree = "<group>"; };
+		ACFB5C0E1C2152CA009CA821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFB5C131C2152CA009CA821 /* LYMoveNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMoveNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFB5C171C2152CA009CA821 /* LYMoveNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoveNavigationUITests.m; sourceTree = "<group>"; };
+		ACFB5C191C2152CA009CA821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFB5BEC1C2152CA009CA821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFB5C051C2152CA009CA821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFB5C101C2152CA009CA821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFB5BE61C2152CA009CA821 = {
+			isa = PBXGroup;
+			children = (
+				ACFB5BF11C2152CA009CA821 /* LYMoveNavigation */,
+				ACFB5C0B1C2152CA009CA821 /* LYMoveNavigationTests */,
+				ACFB5C161C2152CA009CA821 /* LYMoveNavigationUITests */,
+				ACFB5BF01C2152CA009CA821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFB5BF01C2152CA009CA821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB5BEF1C2152CA009CA821 /* LYMoveNavigation.app */,
+				ACFB5C081C2152CA009CA821 /* LYMoveNavigationTests.xctest */,
+				ACFB5C131C2152CA009CA821 /* LYMoveNavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFB5BF11C2152CA009CA821 /* LYMoveNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB5BF51C2152CA009CA821 /* AppDelegate.h */,
+				ACFB5BF61C2152CA009CA821 /* AppDelegate.m */,
+				ACFB5BF81C2152CA009CA821 /* ViewController.h */,
+				ACFB5BF91C2152CA009CA821 /* ViewController.m */,
+				ACFB5BFB1C2152CA009CA821 /* Main.storyboard */,
+				ACFB5BFE1C2152CA009CA821 /* Assets.xcassets */,
+				ACFB5C001C2152CA009CA821 /* LaunchScreen.storyboard */,
+				ACFB5C031C2152CA009CA821 /* Info.plist */,
+				ACFB5BF21C2152CA009CA821 /* Supporting Files */,
+			);
+			path = LYMoveNavigation;
+			sourceTree = "<group>";
+		};
+		ACFB5BF21C2152CA009CA821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB5BF31C2152CA009CA821 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACFB5C0B1C2152CA009CA821 /* LYMoveNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB5C0C1C2152CA009CA821 /* LYMoveNavigationTests.m */,
+				ACFB5C0E1C2152CA009CA821 /* Info.plist */,
+			);
+			path = LYMoveNavigationTests;
+			sourceTree = "<group>";
+		};
+		ACFB5C161C2152CA009CA821 /* LYMoveNavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB5C171C2152CA009CA821 /* LYMoveNavigationUITests.m */,
+				ACFB5C191C2152CA009CA821 /* Info.plist */,
+			);
+			path = LYMoveNavigationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFB5BEE1C2152CA009CA821 /* LYMoveNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFB5C1C1C2152CA009CA821 /* Build configuration list for PBXNativeTarget "LYMoveNavigation" */;
+			buildPhases = (
+				ACFB5BEB1C2152CA009CA821 /* Sources */,
+				ACFB5BEC1C2152CA009CA821 /* Frameworks */,
+				ACFB5BED1C2152CA009CA821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYMoveNavigation;
+			productName = LYMoveNavigation;
+			productReference = ACFB5BEF1C2152CA009CA821 /* LYMoveNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFB5C071C2152CA009CA821 /* LYMoveNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFB5C1F1C2152CA009CA821 /* Build configuration list for PBXNativeTarget "LYMoveNavigationTests" */;
+			buildPhases = (
+				ACFB5C041C2152CA009CA821 /* Sources */,
+				ACFB5C051C2152CA009CA821 /* Frameworks */,
+				ACFB5C061C2152CA009CA821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFB5C0A1C2152CA009CA821 /* PBXTargetDependency */,
+			);
+			name = LYMoveNavigationTests;
+			productName = LYMoveNavigationTests;
+			productReference = ACFB5C081C2152CA009CA821 /* LYMoveNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACFB5C121C2152CA009CA821 /* LYMoveNavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFB5C221C2152CA009CA821 /* Build configuration list for PBXNativeTarget "LYMoveNavigationUITests" */;
+			buildPhases = (
+				ACFB5C0F1C2152CA009CA821 /* Sources */,
+				ACFB5C101C2152CA009CA821 /* Frameworks */,
+				ACFB5C111C2152CA009CA821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFB5C151C2152CA009CA821 /* PBXTargetDependency */,
+			);
+			name = LYMoveNavigationUITests;
+			productName = LYMoveNavigationUITests;
+			productReference = ACFB5C131C2152CA009CA821 /* LYMoveNavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFB5BE71C2152CA009CA821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LuYang;
+				TargetAttributes = {
+					ACFB5BEE1C2152CA009CA821 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					ACFB5C071C2152CA009CA821 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ACFB5BEE1C2152CA009CA821;
+					};
+					ACFB5C121C2152CA009CA821 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ACFB5BEE1C2152CA009CA821;
+					};
+				};
+			};
+			buildConfigurationList = ACFB5BEA1C2152CA009CA821 /* Build configuration list for PBXProject "LYMoveNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFB5BE61C2152CA009CA821;
+			productRefGroup = ACFB5BF01C2152CA009CA821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFB5BEE1C2152CA009CA821 /* LYMoveNavigation */,
+				ACFB5C071C2152CA009CA821 /* LYMoveNavigationTests */,
+				ACFB5C121C2152CA009CA821 /* LYMoveNavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFB5BED1C2152CA009CA821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFB5C021C2152CA009CA821 /* LaunchScreen.storyboard in Resources */,
+				ACFB5BFF1C2152CA009CA821 /* Assets.xcassets in Resources */,
+				ACFB5BFD1C2152CA009CA821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFB5C061C2152CA009CA821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFB5C111C2152CA009CA821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFB5BEB1C2152CA009CA821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFB5BFA1C2152CA009CA821 /* ViewController.m in Sources */,
+				ACFB5BF71C2152CA009CA821 /* AppDelegate.m in Sources */,
+				ACFB5BF41C2152CA009CA821 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFB5C041C2152CA009CA821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFB5C0D1C2152CA009CA821 /* LYMoveNavigationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFB5C0F1C2152CA009CA821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFB5C181C2152CA009CA821 /* LYMoveNavigationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACFB5C0A1C2152CA009CA821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFB5BEE1C2152CA009CA821 /* LYMoveNavigation */;
+			targetProxy = ACFB5C091C2152CA009CA821 /* PBXContainerItemProxy */;
+		};
+		ACFB5C151C2152CA009CA821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFB5BEE1C2152CA009CA821 /* LYMoveNavigation */;
+			targetProxy = ACFB5C141C2152CA009CA821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACFB5BFB1C2152CA009CA821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFB5BFC1C2152CA009CA821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACFB5C001C2152CA009CA821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFB5C011C2152CA009CA821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACFB5C1A1C2152CA009CA821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACFB5C1B1C2152CA009CA821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFB5C1D1C2152CA009CA821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYMoveNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYMoveNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACFB5C1E1C2152CA009CA821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYMoveNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYMoveNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACFB5C201C2152CA009CA821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYMoveNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYMoveNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYMoveNavigation.app/LYMoveNavigation";
+			};
+			name = Debug;
+		};
+		ACFB5C211C2152CA009CA821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYMoveNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYMoveNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYMoveNavigation.app/LYMoveNavigation";
+			};
+			name = Release;
+		};
+		ACFB5C231C2152CA009CA821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYMoveNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYMoveNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYMoveNavigation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACFB5C241C2152CA009CA821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYMoveNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYMoveNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYMoveNavigation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFB5BEA1C2152CA009CA821 /* Build configuration list for PBXProject "LYMoveNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFB5C1A1C2152CA009CA821 /* Debug */,
+				ACFB5C1B1C2152CA009CA821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFB5C1C1C2152CA009CA821 /* Build configuration list for PBXNativeTarget "LYMoveNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFB5C1D1C2152CA009CA821 /* Debug */,
+				ACFB5C1E1C2152CA009CA821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACFB5C1F1C2152CA009CA821 /* Build configuration list for PBXNativeTarget "LYMoveNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFB5C201C2152CA009CA821 /* Debug */,
+				ACFB5C211C2152CA009CA821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACFB5C221C2152CA009CA821 /* Build configuration list for PBXNativeTarget "LYMoveNavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFB5C231C2152CA009CA821 /* Debug */,
+				ACFB5C241C2152CA009CA821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFB5BE71C2152CA009CA821 /* Project object */;
+}
