@@ -15,6 +15,7 @@
 		ACFB5C021C2152CA009CA821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFB5C001C2152CA009CA821 /* LaunchScreen.storyboard */; };
 		ACFB5C0D1C2152CA009CA821 /* LYMoveNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5C0C1C2152CA009CA821 /* LYMoveNavigationTests.m */; };
 		ACFB5C181C2152CA009CA821 /* LYMoveNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5C171C2152CA009CA821 /* LYMoveNavigationUITests.m */; };
+		ACFB5C271C2153F3009CA821 /* SwitchTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5C261C2153F3009CA821 /* SwitchTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ACFB5C131C2152CA009CA821 /* LYMoveNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMoveNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFB5C171C2152CA009CA821 /* LYMoveNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoveNavigationUITests.m; sourceTree = "<group>"; };
 		ACFB5C191C2152CA009CA821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFB5C251C2153F3009CA821 /* SwitchTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTitleView.h; sourceTree = "<group>"; };
+		ACFB5C261C2153F3009CA821 /* SwitchTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		ACFB5BF11C2152CA009CA821 /* LYMoveNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				ACFB5C251C2153F3009CA821 /* SwitchTitleView.h */,
+				ACFB5C261C2153F3009CA821 /* SwitchTitleView.m */,
 				ACFB5BF51C2152CA009CA821 /* AppDelegate.h */,
 				ACFB5BF61C2152CA009CA821 /* AppDelegate.m */,
 				ACFB5BF81C2152CA009CA821 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				ACFB5BFA1C2152CA009CA821 /* ViewController.m in Sources */,
 				ACFB5BF71C2152CA009CA821 /* AppDelegate.m in Sources */,
 				ACFB5BF41C2152CA009CA821 /* main.m in Sources */,
+				ACFB5C271C2153F3009CA821 /* SwitchTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

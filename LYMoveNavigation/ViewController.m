@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SwitchTitleView.h"
 @interface ViewController ()
 
 @end
@@ -17,11 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSArray *titleArray = @[@"View1",@"View2",@"View3"];
+    SwitchTitleView *navView = [[SwitchTitleView alloc]initWithFrame:CGRectMake(20, 24,self.view.frame.size.width - 40, 40) byTitltArray:titleArray];
+    navView.switchBlock = ^(NSInteger index){
+        NSLog(@"%ld",index);
+    };
+    self.navigationItem.titleView = navView;
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
